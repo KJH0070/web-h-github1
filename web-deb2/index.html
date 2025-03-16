@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" lang="ko">
+  <head>
+    <title>login Forum</title>
+    <meta charset="UTF-8" />
+    
+  </head>
+
+  <body>
+    <header>
+      <h1>기본적인 <b>로그인</b> 화면 만들기</h1>
+      <p>다양한 <strong>기능들을</strong> 만들어 봅시다.</p>
+
+    </header>
+        
+    <main>
+      <form>
+            <input type="text" placeholder="아이디">
+            <br>
+            <input type="text" placeholder="비밀번호">
+            <input type="submit" value="로그인">
+          </form>
+
+          <form action="/search-results" method="get">
+            <input type="search" name="q" placeholder="검색어를 입력하세요" required>
+            <button type="submit"> 검색</button>
+        </form>
+        <select>
+          <option selected>1</option> 
+          <option >2</option>  
+          <option disabled>3</option>
+          <option>4</option>
+        </select>
+
+        <select name="last name">
+          <optgroup label="KIM">
+              <option value="KIM JH">김정현</option>
+              <option value="KIM MS">김민수</option>
+              <option value="KIM HJ">김현정</option>
+          </optgroup>
+          <optgroup label="park">
+              <option value="park JS">박정수</option>
+              <option value="park PH">박현정</option>
+              <option value="park HS">박현수</option>
+          </optgroup>
+          <optgroup label="LEE">
+              <option value="LEE DJ">이도준</option>
+              <option value="LEE DH">이도현</option>
+              <option value="LEE HJ">이현준</option>
+          </optgroup>
+      </select>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(178, 145, 203);
+  font-family: "Fira Sans", sans-serif;
+}
+
+h1 {
+  font-size: 52px;
+  color: rgb(144, 25, 235);
+}
+
+header {
+  text-align: center;
+  padding: 32px;
+}
+
+header img {
+  width: 200px;
+  height: 200px;
+}
+
+main {
+  background-color: rgb(142, 34, 225);
+  color: white;
+  padding: 32px;
+  margin: 32px auto;
+  width: 800px;
+  border-radius: 8px;
+}
+
+h1 {
+  color: rgb(85, 8, 229);
+  font-size: 53px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 14px 0;
+  padding-left: 10px;
+  border-left: 5px solid transparent; /* li전체 테두리를 모두 투명한 색으로로 */
+}
+
+a {
+  text-decoration: none; /* 밑줄 제거  */
+  color: rgb(142, 34, 225);
+  background-color: rgb(255, 237, 177);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+a :hover,
+a:active {
+  background-color: rgb(186, 201, 24);
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+footer p {
+  color: rgb(131, 113, 149);
+  margin-top: 30px;
+}
+
+footer a {
+  padding: 12px 20px;
+  border-radius: 8px;
+  background-color: rgb(250, 201, 39);
+  color: rgb(66, 55, 41);
+}
+
+footer a:hover,
+footer a:active {
+    background-color: rgb(250, 233, 0);
+}
+
+.extra-important {
+  color: rgb(225, 161, 34);
+  border-color: rgb(186, 201, 24); /* class 지정한 값만 색상 강조  */
+}
+
+.highlight {
+  font-weight: bold;
+}
